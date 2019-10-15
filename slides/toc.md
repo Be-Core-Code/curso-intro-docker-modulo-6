@@ -3,7 +3,9 @@
 #### Netwoking
 
 * [Networking en docker](#/networking-overview)
-* [Bridge networks: default](#/default-bridge-networks)
+* [Bridge network: por defecto](#/default-bridge-networks)
+* [Bridge network: definida por usuario](#/user-defined-bridge-networks)
+* [Resumen de comandos](#/docker-network-command-summary)
 * [Overlay networks](#/overlay-networks)
 * [Host networking](#/host-networking)
 * [Macvlan networks](#/dockerfile-volume)
