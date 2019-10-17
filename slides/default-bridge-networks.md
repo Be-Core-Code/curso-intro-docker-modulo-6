@@ -73,7 +73,7 @@ del host, y la red _none_
 
 ```bash
 > docker run -dit --name ubuntu1 ubuntu bash
-> docker run -dit --name ubuntu2 ubunut bash
+> docker run -dit --name ubuntu2 ubuntu bash
 ```
 
 * Como no le hemos indicado parámetro `--network` ambos contenedores se están
