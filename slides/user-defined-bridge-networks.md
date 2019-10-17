@@ -111,7 +111,7 @@ NETWORK ID          NAME    DRIVER              SCOPE
 * Creamos una red `ubuntu-net`
 
 ```bash
-> docker network create --driver bridge ubunut-net
+> docker network create --driver bridge ubuntu-net
 ```
 
 notes:
@@ -438,7 +438,7 @@ ellos.
 #### 💻️ Práctica 2: _bridge_ network 💻️
 
 * Los contenedores de la red `bridge` NO pueden comunicarse ni por IP ni por nombre
-  con los de la red `ubunut-net`
+  con los de la red `ubuntu-net`
 
 ```bash
 > docker container attach ubuntu3
